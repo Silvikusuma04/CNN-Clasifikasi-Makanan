@@ -1,8 +1,10 @@
 ## Project Overview
 
-This project demonstrates the implementation of a deep learning model for **food image classification** using transfer learning with **EfficientNetV2L**. It is developed as part of the **Submission 2** requirement for the Dicoding course: *Belajar Pengembangan Machine Learning*.
+This project demonstrates the implementation of a deep learning model for **food image classification** using transfer learning with **EfficientNetV2L**. It is developed as part of the **Submission 2** requirement for the Dicoding course: *Belajar Pengembangan Machine Learning*.The model is trained on the **Food11 Image Dataset**, which contains 16,643 images across 11 categories of common food items. This project covers the complete pipeline: data preprocessing, model training, performance evaluation, and model conversion for deployment on web and mobile platforms.
 
-The model is trained on the **Food11 Image Dataset**, which contains 16,643 images across 11 categories of common food items. This project covers the complete pipeline: data preprocessing, model training, performance evaluation, and model conversion for deployment on web and mobile platforms.
+## Model 
+**Trained model and exported formats**, the trained model along with its exported formats (**SavedModel**, **TFLite**, and **TFJS**) is available for 
+download [here](https://drive.google.com/drive/folders/1TvFO4QMHQRdQuFNe-OMm8fBUWfNU7Y-l?usp=sharing).
 
 ## Objective
 
@@ -50,12 +52,3 @@ Custom layers added after the base model include:
 - `tflite/`: TFLite model and labels
 - `tfjs_model/`: TensorFlow.js version
 - `inference/`: Sample script for testing predictions
-
-## Credits
-
-This project was created by Silvi Kusuma Wardhani Gunawan as part of the requirements for:
-**Dicoding - Belajar Pengembangan Machine Learning (Submission 2)**
-
-## License
-
-This project is licensed under the MIT License.
